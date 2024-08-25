@@ -1,0 +1,21 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light flex-justify">
+  <div class="flex-gap-5">
+    <a class="navbar-brand" href="/">WhatIsGod</a>
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="/">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/about">About</a>
+      </li>
+    </ul>
+  </div>
+  <div>
+    <% if(true){ %>
+    <a href="/sign-in">Sign in</a>
+    <a class="bg-border" href="/sign-up">Sign up</a>
+    <% } else { %>
+    <h1>bar</h1>
+    <% } %>
+  </div>
+</nav>
